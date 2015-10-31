@@ -110,8 +110,8 @@
         }
 
         public void mouseReleased (MouseEvent event) {
-			lineFlag = false;
-			repaint();
+		lineFlag = false;
+		repaint();
 	}
 
         //--------------------------------------------------------------
