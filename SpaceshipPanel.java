@@ -112,7 +112,7 @@
         public void mouseReleased (MouseEvent event) {
 			lineFlag = false;
 			repaint();
-			}
+	}
 
         //--------------------------------------------------------------
         //  Provide empty definitions for unused event methods.
