@@ -1,5 +1,5 @@
 //********************************************************************
-//  SpaceshipPanel.java       Authors: Clifford/Dos Santos/Kelly
+//  SpaceshipPanel.java       Authors: Paul Clifford/ Patrick Kelly
 //
 //  Represents the primary drawing panel for the Spaceship program.
 //  Assigment number 6, Due November 5th, CS 111B, 1:00pm section

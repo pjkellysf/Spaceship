@@ -1,5 +1,5 @@
 //********************************************************************
-//  Spaceship.java       Authors: Clifford/Dos Santos/Kelly
+//  Spaceship.java       Authors: Paul Clifford/ Patrick Kelly
 //
 //  Draws a spaceship and line at the mouse position.
 //  Assigment number 6, Due November 5th, CS 111B, 1:00pm section
