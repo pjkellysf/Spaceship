@@ -2,12 +2,22 @@
 //  SpaceshipPanel.java       Authors: Clifford/Dos Santos/Kelly
 //
 //  Represents the primary drawing panel for the Spaceship program.
+//  Assigment number 6, Due November 5th, CS 111B, 1:00pm section
 //********************************************************************
+
+// Algorithm
+// 1. Set up SpaceshipPanel to listen for mouse events. SpaceshiptPanel extends JPanel
+// 2. Draws the spaship using mouse listener and repaint().
+// 3. Draws random laser line which changes colors.
+// 4. Adds button and action listener to reset shot count.
+
+
     import javax.swing.JPanel;
     import javax.swing.JButton;
     import javax.swing.JLabel;
     import java.awt.*;
     import java.awt.event.*;
+
 
     public class SpaceshipPanel extends JPanel
 {
@@ -60,7 +70,7 @@
             //Random Color - Rewrite to use Array
             int ranColorNum = (int) Math.floor(Math.random()*3) + 1;
             if (ranColorNum == 1) {
-                ranColor = (color1);     
+                ranColor = (color1);
             }
             if (ranColorNum == 2) {
                 ranColor = (color2);
@@ -70,12 +80,12 @@
             }
             //Draw Random Line with New Random Color
             if ((clickPoint != null) && (lineFlag == true)) {
-                page.setColor (ranColor); 
+                page.setColor (ranColor);
                 page.drawLine (clickPoint.x, clickPoint.y, ranX, ranY);
                 counterLabel.setForeground(ranColor);
                 counterLabel.setText("Shots Fired: " + shotCount);
                 lineFlag = false;
-            }            
+            }
         }
         // Sets the point at which to draw the next dot
         public void setPoint(Point pnt) {
